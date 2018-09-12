@@ -1,0 +1,8 @@
+rootProject.name = 'splitTest'
+def modulePrefix = 'app'
+include(":${modulePrefix}-global", ":${modulePrefix}-core", ":${modulePrefix}-web", ":${modulePrefix}-desktop", ":${modulePrefix}-gui")
+project(":${modulePrefix}-global").projectDir = new File(settingsDir, 'modules/global')
+project(":${modulePrefix}-core").projectDir = new File(settingsDir, 'modules/core')
+project(":${modulePrefix}-web").projectDir = new File(settingsDir, 'modules/web')
+project(":${modulePrefix}-desktop").projectDir = new File(settingsDir, 'modules/desktop')
+project(":${modulePrefix}-gui").projectDir = new File(settingsDir, 'modules/gui')

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.company.splittest.gui.screens.Screen"
+        messagesPack="com.company.splittest.gui.screens">
+    <layout>
+        <button invoke="repaint"/>
+        <grid id="mainGrid" spacing="true"
+              width="100%">
+            <columns count="1"/>
+            <rows>
+                <row></row>
+            </rows>
+        </grid>
+    </layout>
+</window>
